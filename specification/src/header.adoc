@@ -1,13 +1,13 @@
-:description: RISC-V Platform Security Model Specification
+:description: RISC-V Security Model
 :company: RISC-V.org
-:revdate: 2/2022
-:revnumber: 0.1
+:revdate: 9/2022
+:revnumber: 0.11
 :revremark: This document is in development. Assume everything can change.
 :url-riscv: http://riscv.org
 :doctype: book
 :preface-title: Preamble
 :colophon:
-:chapter-signifier: Section
+:chapter-signifier: 
 :appendix-caption: Appendix
 :imagesdir: ../images
 :title-logo-image: image:risc-v_logo.svg[pdfwidth=3.25in,align=center]
@@ -37,8 +37,8 @@ endif::[]
 :footnote:
 :xrefstyle: short
 
-= RISC-V Platform Security Model Specification
-:author: RISC-V Security Committee
+= RISC-V Security Model
+:author: RISC-V Security Model Task Group
 
 // Preamble
 [WARNING]
@@ -63,21 +63,24 @@ include::contributors.adoc[]
 
 toc::[]
 
-include::intro.adoc[]
+include::overview.adoc[]
+include::definitions.adoc[]
+include::references.adoc[]
+include::objectives.adoc[]
+include::memory.adoc[]
+include::crypto.adoc[]
+include::identity.adoc[]
+include::rot.adoc[]
+include::attestation.adoc[]
+include::runtime.adoc[]
+include::tee.adoc[]
 
-include::zero_trust.adoc[]
-include::threat_model.adoc[]
-include::security_model.adoc[]
-include::security_ecosystem.adoc[]
-include::discovery.adoc[]
-include::standards.adoc[]
-//include::chapter2.adoc[]
+//include::security_model.adoc[]
 
 //Appendix
 include::zero_trust_principles.adoc[]
-include::references.adoc[]
+
 
 //the index must precede the bibliography
 include::index.adoc[]
-
 include::bibliography.adoc[]

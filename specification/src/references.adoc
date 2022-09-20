@@ -1,7 +1,6 @@
-[appendix]
-
 == References
 
+This section provides  normative and informative references to documents that, in whole or in part, are indispensable to the application of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies. 
 
 . https://www.intel.com/content/www/us/en/newsroom/opinion/zero-trust-approach-architecting-silicon.html[https://www.intel.com/content/www/us/en/newsroom/opinion/zero-trust-approach-architecting-silicon.html]
 . https://www.forrester.com/blogs/tag/zero-trust/[https://www.forrester.com/blogs/tag/zero-trust/]

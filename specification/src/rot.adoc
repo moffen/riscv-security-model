@@ -1,0 +1,23 @@
+
+== Root-of-Trust & Secure Boot
+
+=== Root-of-Trust
+
+==== Services 
+
+Measurements, Integrity, Storage, etc.
+
+==== Use Models 
+RoT uses case, e.g., PRoT, RoT for measurement , RoT for Update, RoT for Recovery (see OCP)
+
+
+=== Secure Boot 
+
+==== Verified Boot
+Definition: Code is only loaded if it is properly signed s 
+
+==== Measured Boot  
+Definition: TCG Trusted boot Measurements
+
+
+

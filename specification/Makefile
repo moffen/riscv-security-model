@@ -1,5 +1,5 @@
 HEADER_SOURCE := ./src/header.adoc
-PDF_RESULT := riscv-platform-security-model.pdf
+PDF_RESULT := riscv-security-model.pdf
 
 all: build
 

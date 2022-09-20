@@ -1,17 +1,17 @@
-= RISC-V Platform Security Model Specification
+= RISC-V Security Model
 
-This repository holds specifications which defines a platform security model for RISC-V platforms.
+This repository contains the RISC-V Security Model document, providing security guidelines and recommendations for RISC-V designers and implementers.
 
-= License
+== License
 
 This work is licensed under a Creative Commons Attribution 4.0 International License (CC-BY-4.0).
 See the https://github.com/riscv/docs-spec-template/blob/main/LICENSE[LICENSE] file for details.
 
-= Contributors
+== Contributors
 
 Contributors to this specification are contained in the link:specification/src/contributors.adoc[contributors.adoc] file.
 
-= Dependencies
+== Dependencies
 
 This project is built using AsciiDoctor (Ruby). The repository has been setup to build the PDF on
 checkin using GitHub actions.  Workflow dependencies are located in the `dependencies` directory.
@@ -19,7 +19,7 @@ checkin using GitHub actions.  Workflow dependencies are located in the `depende
 For more information on AsciiDoctor, specification guidelines, or building locally, see the
 https://github.com/riscv/docs-dev-guide[RISC-V Documentation Developer Guide].
 
-= Cloning the project
+== Cloning the project
 
 This project uses https://git-scm.com/book/en/v2/Git-Tools-Submodules[GitHub Submodules]
 to include the https://github.com/riscv/docs-resources[RISC-V docs-resources project]
@@ -42,6 +42,6 @@ in the PDF build fail with an error message like the following:
       Use --trace for backtrace
     make: *** [Makefile:7: profiles.pdf] Error 1
 
-= Building the document
+== Building the document
 
 The final specification form of PDF can be generated using the `make` command.

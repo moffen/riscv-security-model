@@ -1,0 +1,34 @@
+
+== Cryptography 
+
+=== Recommended Primitives, Modes, and Algorithms
+
+
+=== Randomness
+
+==== Entropy Sources
+
+==== Deterministic Random Bit Generators
+
+
+=== Critical Security Parameters 
+
+==== Strength 
+length / strength 
+entropy  
+
+==== Management 
+Storage / Access controls    
+
+==== Life-Cycle
+generation, derivation, storage, destruction
+
+
+=== Constant Time Execution 
+Execution time independent of data being computed on
+
+
+=== Post Quantum Cryptography
+
+note, SP800-208
+

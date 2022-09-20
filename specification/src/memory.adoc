@@ -1,0 +1,27 @@
+
+== Memory Protection 
+
+=== Privilege Modes 
+M / ? / H / S / U
+Min. / small TCB sec properties   
+
+=== Physical Memory Protection
+
+
+==== Enhanced PMP
+
+==== S-mode PMP
+
+==== I/O PMP
+
+
+==== I/O MMU
+secure vs non-secure view using PMPs
+
+=== Memory Security  
+encryption/integrity/replay protections
+
+
+
+=== Link Security 
+Link protections, e.g., PCIe, CXL,  inter-die

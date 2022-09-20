@@ -1,0 +1,48 @@
+== Overview
+
+=== Introduction
+Security has often been a late consideration in the development of systems, hardware, and software. The emergence of exploits such as malware, trojans, the recent Spectre, Meltdown, RAMbleed attacks has resulted in serious financial and reputation losses. This illustrates the need to consider security as an essential component, directly built into a system rather than layered on top.
+
+Unlike other commercial architectures such as X86 and ARM which carry a lot of legacies, RISC-V is a clean slate architecture that can invite a whole lot of new features and solutions both in hardware and software. Below are some key rationale for improving and accelerating RISC-V security
+
+* Clean slate architecture with no legacy support complexity
+* Open security model accelerates hardware security innovation
+* Opportunity to incorporate industry learnings & best practices for security
+* Open governance facilitates collaboration on the best security approach
+* Royalty-free model enables wide access to new hardware security solutions thereby democratizing innovation.
+
+
+=== Scope
+
+
+==== Device Model
+
+This diagram below represents a generic device model having an application processor, other IPs, etc. on the left side and root-of-trust on the right side that is isolated from each other. The only communication between the two domains is via a security mailbox.
+
+.Device Model
+image::img_0.png[]
+
+
+The root-of-trust consists of the following elements:
+
+. An immutable code and data that are typically programmed into ROM/ OTP and root-keys either provisioned into OTP or generated every time from the PUF (physical unclonable function) hardware
+. A mutable code and data that are updated onto the flash to fix bugs or enhance features, which are authenticated and verified before consumption
+. A secure storage mechanism to store secrets/ assets bound to the platform, ex: root-key
+. A secure mailbox is the only mechanism to communicate between both the domains
+
+
+==== Recommended Compositions
+- Cloud/HPC
+- Edge 
+- high-end embedded 
+- low-end embedded
+
+Device Models: virtualized vs no-virtualized
+
+
+
+
+
+=== Document Organization
+
+

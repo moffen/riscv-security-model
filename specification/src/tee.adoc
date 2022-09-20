@@ -1,0 +1,14 @@
+
+== Trusted Execution Environments 
+
+=== Memory Isolation
+Running multiple workloads (> 2) on one processor
+Memory protection with PMP/SPMP and external checkers (IOPMP)
+Initiator-side and/or target-side access control
+
+=== TEE Models 
+
+=== Confidential Compute  
+
+
+

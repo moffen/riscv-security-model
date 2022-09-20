@@ -1,0 +1,23 @@
+
+== Side Channels 
+
+=== Software Induced
+
+Software-induced side-channel attacks (easier to exploit, because they don’t require any physical access)
+
+Timing side-channel attacks, including cache-timing attacks
+
+Transient execution side-channel attacks (some use cache timing, but not all)
+
+
+=== Physical 
+
+Physical side-channel attacks (harder to exploit, because they require direct physical access or proximity)
+
+Power analysis side-channel attacks, including Simple Power Analysis (SPA), Differential Power Analysis (DPA), and Correlation Power Analysis (CPA)
+
+Electromagnetic (EM) side-channel attacks, including Simple Electromagnetic Analysis (SEMA) and Differential Electromagnetic Analysis (DEMA)
+
+Fault injection side-channel attacks, including voltage glitching, clock pin tampering, EM disturbances, and laser glitching
+
+

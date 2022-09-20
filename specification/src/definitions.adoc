@@ -1,0 +1,37 @@
+
+
+== Definitions & Conventions
+
+=== Definitions & Abbreviations
+
+==== Definitions
+
+
+==== Abbreviations
+
+
+CFI: Control Flow Integrity
+CSP: Critical Security Parameter
+
+DRBG: Deterministic Random Bit Generator
+
+ePMP: enhanced PMP
+
+PMP: Physical Memory Protection 
+
+PQC: Post-Quantum Cryptography
+
+RoT: Root of Trust 
+
+TEE: Trusted Execution Environment 
+
+
+=== Conventions & Normative Text
+
+==== Conventions
+
+
+
+==== Normative vs. Informative Text 
+
+
